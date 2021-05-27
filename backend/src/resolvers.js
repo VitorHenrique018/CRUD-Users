@@ -9,4 +9,8 @@ module.exports = {
   Mutation: {
     createUser: (_, { name, email }) => User.create({ name, email}),
   },
+
+  Subscription: {
+    usersRT: () => User.find(),
+  },
 };
