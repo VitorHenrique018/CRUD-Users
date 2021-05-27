@@ -6,8 +6,7 @@ const GET_USERS = gql`
 query {
     users{
       name,
-      email,
-      id
+      email
     }
   }
 `
