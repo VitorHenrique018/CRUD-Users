@@ -1,5 +1,4 @@
 const User = require('./User');
-//similar ao controllers
 module.exports = {
 
   Query: {
