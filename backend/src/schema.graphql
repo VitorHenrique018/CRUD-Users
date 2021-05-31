@@ -12,6 +12,7 @@ user(id: ID!): User
 
 type Mutation {
 createUser(name: String!, email: String!): User
+editUser(name: String!, email: String!): User
 
 }
 
