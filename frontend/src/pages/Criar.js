@@ -26,7 +26,7 @@ const Criar = () => {
             console.log(response)
         }
         catch (error) {
-            console.log("ERROU")
+            alert("Dados Invalidos")
         }
     }
 
